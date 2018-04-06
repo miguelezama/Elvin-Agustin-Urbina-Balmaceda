@@ -1,0 +1,209 @@
+html{
+  font-size: 100.01%;
+}
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,hr,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfont,thead,tr,th,td{padding:0;margin:0;border:none;outline:none;vertical-align:baseline;font-family:inherit;font-size:100%;}dfn,i,cite,var,address,em{font-style:normal;}th,b,strong,h1,h2,h3,h4,h5,h6{font-weight:normal;}textarea,input,select{font-family:inherit;font-size:1em;}blockquote,q{quotes:none;}q:before,q:after,blockquote:before,blockquote:after{content:'';content:none;}ol,ul{list-style:none;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;}:focus{outline:none;}
+
+html, body {
+  height:100%;
+}
+body{
+	font: .8125em/1.5 Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #fff;
+	color: #333;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+	display: block;
+}
+
+a {
+	color: #267;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #722;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+#page_header {
+	padding-bottom: 2em;
+	font-size: 3em;
+}
+
+header {
+	color: #007e99;
+	font-size: 2em;
+	padding: 20px 50px;
+}
+
+header span {
+	color: #722;
+}
+
+nav li {
+  	display: inline;
+	margin: 0 15px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav span,
+nav a {
+	padding: 3px 15px 4px;
+  	text-decoration: none;
+}
+
+nav span {
+	background: rgb(26,80,136);
+}
+
+nav span a{
+  	padding: .5em;
+  	color: #fff;
+}
+
+nav header {
+  	font-size: 12px;
+  	padding: 0;
+}
+
+.site-navigation{
+  	display:table;
+}
+
+.site-navigation li{
+  	border: 0;
+}
+
+section {
+	width: 65%;
+	padding: 2em 3.5em 4em 3.5em;
+	float: left;
+}
+
+section article {
+  	margin: 0px;
+  	padding: .5em;
+}
+
+section header {
+  	font-size: 1em;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+section h1 {
+  	font-size: 2.3em;
+}
+
+aside {
+  	width: 22%;
+	margin: .3em 3.5em .3em .3em;
+	padding: .5em;
+	float: left;
+}
+
+aside h1 {
+  	color: #888;
+	font-size: 1.8em;
+}
+
+aside .tag-cloud {
+  	padding: 15px 35px 10px 0;
+	text-align: 
+}
+
+aside .tag-cloud li {
+  	display: inline;
+}
+
+aside .tag-cloud a {
+	color: #69a;
+}
+
+aside .tag-cloud a:hover {
+  color: #a67;
+}
+
+aside .tag-cloud .word1 {
+	font-size: 1em;
+}
+
+aside .tag-cloud .word2 {
+	font-size: .9em;
+}
+
+aside .tag-cloud .word3 {
+	font-size: 1.5em;
+}
+
+aside .tag-cloud .word4 {
+	font-size: 1.1em;
+}
+
+aside .tag-cloud .word5 {
+	font-size: 1.4em;
+}
+
+aside .tag-cloud .word6 {
+	font-size: 1.3em;
+}
+
+aside .tag-cloud .word7 {
+	font-size: 1.6em;
+}
+
+aside .tag-cloud .word8 {
+	font-size: 1.2em;
+}
+
+aside .tag-cloud .word9 {
+	font-size: 1.9em;
+}
+
+aside .tag-cloud .word10 {
+	font-size: 2em;
+}
+
+figcaption {
+  	font-style:italic;
+  	font-size: 0.8em;
+  	width: 100%
+}
+
+footer {
+	padding: 10px 50px
+}
+
+#page_footer {
+	width: 98%;
+	clear: both;
+}
+
+header:hover,
+nav:hover,
+section:hover,
+aside:hover,
+footer:hover {
+  	background: #eee
+}
+
+article:hover {
+	background: #ccc
+}
+
+article header:hover {
+  	background: #ccc
+}
